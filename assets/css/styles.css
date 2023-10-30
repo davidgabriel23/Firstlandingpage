@@ -57,6 +57,10 @@ h6 {
     
 }
 
+a {
+    text-decoration: none;
+}
+
 .main-bg {
     background-image: url(../img/sun-tornado.png);
     background-size: cover;
@@ -82,4 +86,36 @@ h6 {
 
 .section {
     min-height: 100vh;  /* a sessão inteira vai ter a altura de 100vh*/
+}
+
+.menu {
+    background: var(--white-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.menu-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h1 {
+    font-size: 2.3rem;
+    
+}
+
+.menu  h1 a {
+    color: black;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    display: block;
 }
